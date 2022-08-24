@@ -1,4 +1,360 @@
-body{
+body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 }
+
+#banner-size {
+    width: 1440px;
+    height: 669px;
+    margin-bottom: 100px;
+}
+
+/*Banner part start*/
+.top-banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("images/donation0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner-child {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 800px;
+
+}
+
+#text1-banner {
+    display: contents;
+    font-size: 70px;
+}
+
+#text2-banner {
+    width: 500px;
+}
+
+.text-color-top-banner-child {
+    color: lightseagreen;
+}
+
+.button1-design {
+    text-decoration: none;
+    background-color: rgb(255, 89, 89);
+    padding: 15px 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    width: 95px;
+}
+
+/*Banner part end*/
+
+
+/*Donate Today part start*/
+.donate-today {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-today-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 800px;
+
+}
+
+#text1-donate {
+    display: contents;
+    font-size: 50px;
+}
+
+#text2-donate {
+    width: 500px;
+}
+
+.text-color-donate-today-child {
+    color: gray;
+}
+
+.donate-today-taka {
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+
+.donate-today-taka-child {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    width: 136px;
+    height: 123px;
+    box-sizing: border-box;
+    border: 2px;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#background-color-taka {
+    background-color: rgb(255, 238, 238);
+    border: 2px solid rgb(255, 89, 89);
+}
+
+.donate-today-taka-child>h1 {
+    padding-left: 34px;
+    font-size: 30px;
+}
+
+#donate-today-taka-child-color {
+    color: rgb(255, 89, 89);
+}
+
+.input-field-donate {
+    width: 550px;
+    text-align: center;
+    border-style: none;
+}
+
+hr {
+    color: rgb(218, 218, 218);
+}
+
+.button2-design {
+    background-color: rgb(255, 89, 89);
+    padding: 15px 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    width: 125px;
+    margin-top: 20px;
+    border: none;
+    /*for button border remove*/
+    outline: none;
+    /*for button border remove*/
+}
+
+/*Donate Today part end*/
+
+
+/*Donate Plan part start*/
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.donate-plan-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 800px;
+
+}
+
+#text1-plan {
+    display: contents;
+    font-size: 50px;
+}
+
+#text2-plan {
+    width: 500px;
+}
+
+.text-color-donate-plan-child {
+    color: gray;
+}
+
+.donate-plan-3 {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#width-height {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 352px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-radius: 5px;
+    margin-right: 25px;
+    padding-top: 70px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+#text-plan3 {
+    width: 250px;
+}
+
+.donate-plan-food {
+    background-color: rgb(237, 245, 246);
+}
+
+.donate-plan-shelter {
+    background-color: rgb(255, 238, 238);
+}
+
+.donate-plan-education {
+    background-color: rgb(255, 244, 214);
+}
+/*Donate Plan part end*/
+
+
+/*Extra addition part(bonus) start*/
+.non-profit {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.non-profit-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 800px;
+
+}
+
+#text1-non-profit {
+    font-size: 50px;
+}
+
+.text-color-non-profit-child {
+    color: gray;
+}
+
+.non-profit-3 {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.profit{
+    padding-top: 75px;
+}
+/*Extra addition part(bonus) end*/
+
+
+/*Get My Update(bonus) part start*/
+.get-update {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.get-update-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 800px;
+
+}
+
+#text1-update {
+    display: contents;
+    font-size: 50px;
+}
+
+#text2-update {
+    width: 500px;
+}
+
+.text-color-donate-update-child {
+    color: gray;
+}
+
+#email-subscribe-size {
+    display: flex;
+    flex-direction: column;
+    width: 809px;
+    height: 200px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-radius: 5px;
+    margin-right: 25px;
+    padding-top: 70px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.email-subscribe-bg {
+    background-color: rgb(255, 244, 214);
+    margin-top: 25px;
+}
+
+.email-subscribe-alignment {
+    padding-left: 180px;
+}
+
+.input-field-update {
+    background-color: rgb(217, 217, 217);
+    width: 225px;
+    padding: 15px 18px;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    /*for input border remove*/
+    outline: none;
+    /*for input border remove*/
+    float: left;
+
+}
+
+.button3-design {
+    background-color: rgb(255, 89, 89);
+    padding: 15px 18px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: 700;
+    width: 125px;
+    margin-top: 20px;
+    border: none;
+    /*for button border remove*/
+    outline: none;
+    /*for button border remove*/
+    display: flex;
+    align-items: center;
+}
+/*Get My Update(bonus) part end*/
+
+
+/*Footer part start*/
+.footer {
+    display: flex;
+    background-color: rgb(11, 13, 23);
+    justify-content: center;
+    margin-top: 100px;
+    height: 180px;
+    width: 100%;
+}
+
+.footer-child {
+    margin-top: 35px;
+}
+
+.footer-h1 {
+    color: rgb(255, 89, 89);
+    font-family: 'Lobster';
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: rgb(69, 89, 106);
+    text-align: center;
+}
+/*Footer part end*/
